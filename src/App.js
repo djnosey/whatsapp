@@ -6,9 +6,11 @@ import SideBar from './SideBar';
 function App() {
   return (
     <div className="app">
-<h1>whatsapppppp!!</h1>
-<SideBar />
-<Chat />
+      <div className ="app__body">
+        <SideBar />
+        <Chat />
+      </div>
+
     </div>
   );
 }
